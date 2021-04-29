@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.servlet;
+package TwitchRecommenderBackend.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.db;
+package TwitchRecommenderBackend.db;
 
 public class MySQLException extends RuntimeException {
     public MySQLException(String errorMessage) {

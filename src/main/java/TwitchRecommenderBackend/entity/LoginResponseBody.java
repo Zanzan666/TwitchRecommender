@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.entity;
+package TwitchRecommenderBackend.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,8 +1,8 @@
-package com.example.TwitchRecommender.servlet;
+package TwitchRecommenderBackend.servlet;
 
-import com.example.TwitchRecommender.entity.Item;
-import com.example.TwitchRecommender.recommendation.ItemRecommender;
-import com.example.TwitchRecommender.recommendation.RecommendationException;
+import TwitchRecommenderBackend.entity.Item;
+import TwitchRecommenderBackend.recommendation.ItemRecommender;
+import TwitchRecommenderBackend.recommendation.RecommendationException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,12 +1,12 @@
-package com.example.TwitchRecommender.recommendation;
+package TwitchRecommenderBackend.recommendation;
 
-import com.example.TwitchRecommender.db.MySQLConnection;
-import com.example.TwitchRecommender.db.MySQLException;
-import com.example.TwitchRecommender.entity.Game;
-import com.example.TwitchRecommender.entity.Item;
-import com.example.TwitchRecommender.entity.ItemType;
-import com.example.TwitchRecommender.external.TwitchClient;
-import com.example.TwitchRecommender.external.TwitchException;
+import TwitchRecommenderBackend.entity.Game;
+import TwitchRecommenderBackend.entity.Item;
+import TwitchRecommenderBackend.entity.ItemType;
+import TwitchRecommenderBackend.external.TwitchClient;
+import TwitchRecommenderBackend.external.TwitchException;
+import TwitchRecommenderBackend.db.MySQLConnection;
+import TwitchRecommenderBackend.db.MySQLException;
 
 import java.util.*;
 import java.util.function.Function;

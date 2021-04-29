@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.db;
+package TwitchRecommenderBackend.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

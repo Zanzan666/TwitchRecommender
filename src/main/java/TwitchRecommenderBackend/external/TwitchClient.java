@@ -1,15 +1,15 @@
-package com.example.TwitchRecommender.external;
+package TwitchRecommenderBackend.external;
 
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-import com.example.TwitchRecommender.entity.Item;
-import com.example.TwitchRecommender.entity.ItemType;
+import TwitchRecommenderBackend.entity.Item;
+import TwitchRecommenderBackend.entity.ItemType;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.TwitchRecommender.entity.Game;
+import TwitchRecommenderBackend.entity.Game;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;

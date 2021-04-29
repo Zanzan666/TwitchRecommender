@@ -1,8 +1,7 @@
-package com.example.TwitchRecommender.servlet;
+package TwitchRecommenderBackend.servlet;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.TwitchRecommender.external.TwitchClient;
-import com.example.TwitchRecommender.external.TwitchException;
+import TwitchRecommenderBackend.external.TwitchClient;
+import TwitchRecommenderBackend.external.TwitchException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

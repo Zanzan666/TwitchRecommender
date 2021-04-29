@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.recommendation;
+package TwitchRecommenderBackend.recommendation;
 
 public class RecommendationException extends RuntimeException {
     public RecommendationException(String errorMessage) {

@@ -1,8 +1,8 @@
-package com.example.TwitchRecommender.db;
+package TwitchRecommenderBackend.db;
 
-import com.example.TwitchRecommender.entity.Item;
-import com.example.TwitchRecommender.entity.ItemType;
-import com.example.TwitchRecommender.entity.User;
+import TwitchRecommenderBackend.entity.Item;
+import TwitchRecommenderBackend.entity.ItemType;
+import TwitchRecommenderBackend.entity.User;
 
 import java.sql.*;
 import java.util.*;

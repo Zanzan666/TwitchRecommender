@@ -1,10 +1,9 @@
-package com.example.TwitchRecommender.servlet;
+package TwitchRecommenderBackend.servlet;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.TwitchRecommender.db.MySQLConnection;
-import com.example.TwitchRecommender.db.MySQLException;
-import com.example.TwitchRecommender.entity.FavoriteRequestBody;
-import com.example.TwitchRecommender.entity.Item;
+import TwitchRecommenderBackend.entity.FavoriteRequestBody;
+import TwitchRecommenderBackend.entity.Item;
+import TwitchRecommenderBackend.db.MySQLConnection;
+import TwitchRecommenderBackend.db.MySQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

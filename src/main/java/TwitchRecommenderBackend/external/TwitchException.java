@@ -1,4 +1,4 @@
-package com.example.TwitchRecommender.external;
+package TwitchRecommenderBackend.external;
 
 public class TwitchException extends RuntimeException {
     public TwitchException(String errorMessage) {
