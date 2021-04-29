@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="twitchRecommender_db@database-twitch-app.cfpgngj2dfbe.us-east-1.rds.amazonaws.com" uuid="37c1dd1c-f767-4548-a2bc-57a79b84b6d2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://database-twitch-app.cfpgngj2dfbe.us-east-1.rds.amazonaws.com:3306/twitchRecommender_db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
